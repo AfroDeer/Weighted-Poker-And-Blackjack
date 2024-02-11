@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Startup.unity
+    guid: cb4e47cf08321ed49a1b83915342a8c1
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2c8be26fc3b2bb449ab168794584fa62
+  - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: aeec2edcb92abc645a282f57ca30e4b4
+  - enabled: 1
+    path: Assets/Scenes/Poker.unity
+    guid: 5d521ddf8f91e8940bbc0421c73f0c9c
+  - enabled: 1
+    path: Assets/Scenes/Blackjack.unity
+    guid: db2d4c69e9bb2a94184c7a4d32762e3c
+  m_configObjects: {}
