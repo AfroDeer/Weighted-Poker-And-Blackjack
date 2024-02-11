@@ -282,7 +282,7 @@ public class Blackjack : CasinoGameState
         int playerValue = playerMinValue;
         if (playerMaxValue <= 21) playerValue = playerMaxValue;
         int dealerValue = dealerMinValue;
-        if (dealerMaxValue <= 21) playerValue = dealerMaxValue;
-        return playerValue < dealerValue;
+        if (dealerMaxValue <= 21) dealerValue = dealerMaxValue;
+        return playerValue >= dealerValue;
     }
 }
